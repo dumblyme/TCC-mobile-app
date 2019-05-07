@@ -1,0 +1,19 @@
+@import "../home/home.page.scss";
+
+ion-content {
+  .announcement {
+    background-image: linear-gradient(#ffffff, #ffe40f);
+    position: absolute;
+    left: 21px;
+    top: 102px;
+    width: 329px;
+    height: 47px;
+    z-index: 8;
+    text-align: center;
+    color: rgb(181, 85, 60);
+    span {
+      font-size: 37px;
+      line-height: 1.2;
+    }
+  }
+}

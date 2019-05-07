@@ -1,86 +1,82 @@
-ion-content{
-        --background: url(../../assets/images/background.png);
+ion-content {
+  --background: url(../../assets/images/background.png);
 
-        .TCC-300px{
-            margin: 86px 52px 0px 37px;
-            background: url(../../assets/images/Icon-TCC-300px.png);
-            height: 300px;
-            width: 300px;
-        }
+  * {
+    font-family: "Agency FB";
+  }
 
+  .TCC-300px {
+    margin: 86px 52px 0px 37px;
+    background: url(../../assets/images/Icon-TCC-300px.png);
+    height: 300px;
+    width: 300px;
+  }
 
-        .login-credentials{
-            height: 50%;
-            text-align: center;
-            .login{
-                border-style: solid;
-                text-align: center;
-                border-width: 1px;
-                border-color: rgb(181, 87, 61);
-                border-radius: 10px;
-                background-color: rgb(255, 255, 252);
-                box-shadow: inset 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-                -moz-box-shadow:    inset  0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-                -webkit-box-shadow: inset  0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-                position: absolute;
-                left: 36px;
-                top: 426px;
-                width: 300px;
-                height: 44px;
-                z-index: 9;
-                font-size: 33.333px;
-                font-family: agency-fb, sans-serif;
-                color: rgb(181, 85, 60);
-                line-height: 1.2;
-                text-align: center;    
-                letter-spacing: 3px;
-                &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                    color: rgb(181, 85, 60);
-                    opacity: 1; /* Firefox */
-                  }
-                  
-                &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-                    color: rgb(181, 85, 60);
-                  }
-                  
-                &::-ms-input-placeholder { /* Microsoft Edge */
-                    color: rgb(181, 85, 60);
-                  }
-                  
-            &.password {
-                margin-top : 59px; 
-            }
+  .login-credentials {
+    height: 50%;
+    text-align: center;
+    .login {
+      border-style: solid;
+      text-align: center;
+      border-width: 1px;
+      border-color: rgb(181, 87, 61);
+      border-radius: 10px;
+      background-color: rgb(255, 255, 252);
+      box-shadow: inset 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+      -moz-box-shadow: inset 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+      -webkit-box-shadow: inset 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+      position: absolute;
+      left: 36px;
+      top: 426px;
+      width: 300px;
+      height: 44px;
+      z-index: 9;
+      font-size: 33.333px;
+      font-family: "Agency FB";
+      color: rgb(181, 85, 60);
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 3px;
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(181, 85, 60);
+        opacity: 1; /* Firefox */
+      }
 
-        }
-         
-            .tcc-button{
-                    border-style: solid;
-                    border-width: 1px;
-                    border-color: rgb(255, 255, 252);
-                    border-radius: 10px;
-                    background-color: rgb(181, 85, 60);
-                    position: absolute;
-                    left: 113px;
-                    top: 570px;
-                    width: 148px;
-                    height: 44px;
-                    z-index: 5;
-                    font-size: 33.333px;
-                    font-family: agency-fb, sans-serif;
-                    color: rgb(0, 0, 0);
-                    line-height: 1.2;
-                    text-align: center;
-                    -moz-transform: scale(1.1, 1);
-                    -webkit-transform: scale(1.1, 1);
-                    -ms-transform: scale(1.1, 1);
-                    font-weight: 600;
-                    letter-spacing: 5px;
-            }
-        }
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: rgb(181, 85, 60);
+      }
 
+      &::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: rgb(181, 85, 60);
+      }
 
-
+      &.password {
+        margin-top: 59px;
+      }
     }
 
-
-
+    .tcc-button {
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(255, 255, 252);
+      border-radius: 10px;
+      background-color: rgb(181, 85, 60);
+      position: absolute;
+      left: 113px;
+      top: 570px;
+      width: 148px;
+      height: 44px;
+      z-index: 5;
+      font-size: 33.333px;
+      font-family: "Agency FB";
+      color: rgb(0, 0, 0);
+      line-height: 1.2;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 5px;
+    }
+  }
+}

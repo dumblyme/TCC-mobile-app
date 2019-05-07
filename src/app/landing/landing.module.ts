@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { LandingPage } from './landing.page';
+import { HeaderTCCComponent } from 'src/components/header-tcc/header-tcc.component';
 
 const routes: Routes = [
   {
@@ -19,8 +20,14 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [LandingPage]
+  declarations: [
+    LandingPage,
+    HeaderTCCComponent
+  ],
+  exports: [
+    HeaderTCCComponent
+  ]
 })
-export class LandingPageModule {}
+export class LandingPageModule { }
