@@ -12,6 +12,9 @@ export class LandingPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    this.announcements = this.getAnnouncements();
+
   }
 
   getAnnouncements() {
@@ -70,6 +73,7 @@ export class LandingPage implements OnInit {
 
       ];
 
+      return newAnnouncements;
 
   }
 

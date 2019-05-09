@@ -6,14 +6,45 @@ ion-content {
     position: absolute;
     left: 21px;
     top: 102px;
-    width: 329px;
-    height: 47px;
+    width: 88%;
+    height: 7%;
     z-index: 8;
     text-align: center;
     color: rgb(181, 85, 60);
+
     span {
       font-size: 37px;
       line-height: 1.2;
     }
+
+    .message {
+        width: 100%;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(212, 212, 212);
+        background-color: rgb(254, 252, 252);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.34);
+        padding: 8px;
+        margin: 20px 0px;
+        text-align: left;
+        .text{
+                font-size: 18px;
+                color: rgb(181, 85, 60);
+                line-height: 1.2;
+                font-family: Arial, Helvetica, sans-serif
+        }
+        .timestamp{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(1, 1, 1);
+            line-height: 1.2;
+            margin-left: 75%;
+          
+        }
+
+      }
+      
+
   }
 }

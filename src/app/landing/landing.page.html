@@ -8,11 +8,16 @@
 <ion-content>
   <div class="announcement">
     <span>ANNOUNCEMENT</span>
+
+    <div class="message" *ngFor="let announcement of announcements">
+      <span class="text">
+        {{announcement.message}}
+    </span>
+    <br>
+    <span class="timestamp">
+      {{announcement.date}}
+    </span>
+    </div>
   </div>
-
-  <div class="message">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure beatae repellendus, optio
-    temporibus atque minima? Aut vitae at obcaecati, qui unde corrupti minima possimus eveniet, pariatur tempore
-    consequuntur facilis. Ex.</div>
-
 
 </ion-content>
